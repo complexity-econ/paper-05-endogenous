@@ -1,0 +1,24 @@
+# LaTeX build artifacts
+latex/*.aux
+latex/*.bbl
+latex/*.bcf
+latex/*.blg
+latex/*.log
+latex/*.out
+latex/*.run.xml
+latex/*.toc
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.synctex.gz
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Empty placeholder dirs
+mc/
+paper/
+latex/*.blx.bib
