@@ -1,5 +1,7 @@
 # Endogenous Technology and Network Dynamics in AI Adoption
 
+[**Read the paper (PDF)**](latex/paper_en.pdf)
+
 **A Factorial Agent-Based Study**
 
 Fifth paper in the [complexity-econ](https://github.com/complexity-econ) series. Tests whether the universality of AI adoption phase transitions (established in [Paper 04](https://github.com/complexity-econ/paper-04-phase-diagram)) survives when both the sectoral elasticity of substitution (σ) and the inter-firm network are made endogenous.
