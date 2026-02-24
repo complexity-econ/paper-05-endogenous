@@ -23,6 +23,56 @@ Fifth paper in the [complexity-econ](https://github.com/complexity-econ) series.
 | C3 Rho | 3,780 | 6 ρ values × 21 BDP × 30 seeds |
 | **Total** | **10,080** | |
 
+## Figures
+
+### Factorial Bifurcation (2×2 Design)
+
+![fig01](figures/fig01_factorial_bifurcation.png)
+**Fig 1.** Adoption vs BDP across all four factorial cells. The reentrant (inverted-U) shape survives endogenization — static cells peak at BDP_c = 500, dynamic network cells shift to BDP_c = 750.
+
+![fig02](figures/fig02_factorial_difference.png)
+**Fig 2.** Adoption difference relative to the static/static baseline. The full endogenous cell (red) peaks at +6.7 pp — effects are superadditive near the critical region.
+
+### Endogenous σ Trajectories
+
+![fig03](figures/fig03_sigma_vs_bdp.png)
+**Fig 3.** Terminal σ at month 120 for each sector under learning-by-doing (λ = 0.02). BPO/SSC nearly doubles its elasticity; low-digital sectors (Public, Agriculture) barely move — a Matthew effect in technology diffusion.
+
+![fig04](figures/fig04_sigma_heatmap.png)
+**Fig 4.** Heatmap of σ fold change across all BDP levels and sectors. The strongest growth occurs in the critical region (BDP 250–750), not at the highest subsidies.
+
+### Network Evolution
+
+![fig05](figures/fig05_mean_degree_factorial.png)
+**Fig 5.** Mean degree at month 120 across factorial cells. Static cells hold at ⟨k⟩ = 6; dynamic rewiring causes modest decline from death-birth turnover.
+
+![fig06](figures/fig06_mean_degree_rho.png)
+**Fig 6.** Mean degree vs BDP for different rewiring rates ρ. Higher ρ increases degree variation but the mean stays close to the initial k = 6.
+
+### λ Sensitivity (Learning Rate)
+
+![fig07](figures/fig07_lambda_adoption.png)
+**Fig 7.** Adoption curves for each learning rate λ. Higher λ raises peak adoption monotonically while preserving the reentrant shape.
+
+![fig08](figures/fig08_bdpc_vs_lambda.png)
+**Fig 8.** Critical BDP vs learning rate. BDP_c is rock-stable at 500 for λ ≤ 0.02, then jumps discretely to 750 at λ ≥ 0.05 — a threshold effect.
+
+### ρ Sensitivity (Rewiring Rate)
+
+![fig09](figures/fig09_rho_adoption.png)
+**Fig 9.** Adoption curves for each rewiring rate ρ. Moderate rewiring boosts adoption near criticality; excessive rewiring shows diminishing returns.
+
+![fig10](figures/fig10_bdpc_vs_rho.png)
+**Fig 10.** Critical BDP vs rewiring rate — strikingly non-monotonic. Preferential attachment shifts BDP_c to 750 at intermediate ρ, but high ρ destroys network structure faster than it forms, reverting to BDP_c = 500.
+
+### Universality & SOC Diagnostic
+
+![fig11](figures/fig11_universality_variance.png)
+**Fig 11.** Susceptibility proxy (variance peaks) across all four cells. Peaks cluster in the BDP 250–750 band — the critical region is only mildly perturbed by endogenization.
+
+![fig12](figures/fig12_soc_diagnostic.png)
+**Fig 12.** SOC diagnostic: σ does not converge to a critical attractor. Instead, a positive feedback loop (adoption → σ growth → more adoption) amplifies the transition without self-tuning.
+
 ## Repository Structure
 
 ```
