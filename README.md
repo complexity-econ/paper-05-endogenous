@@ -1,5 +1,7 @@
 # Endogenous Technology and Network Dynamics in AI Adoption
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18758365.svg)](https://doi.org/10.5281/zenodo.18758365)
+
 [**Read the paper (PDF)**](latex/paper_en.pdf)
 
 **A Factorial Agent-Based Study**
@@ -113,7 +115,7 @@ cd latex && xelatex paper_en.tex && bibtex paper_en && xelatex paper_en.tex && x
 | 02 | [Monetary Regime & Automation](https://github.com/complexity-econ/paper-02-monetary-regimes) | [10.5281/zenodo.18740933](https://doi.org/10.5281/zenodo.18740933) |
 | 03 | [Empirical σ Estimation](https://github.com/complexity-econ/paper-03-empirical-sigma) | [10.5281/zenodo.18743780](https://doi.org/10.5281/zenodo.18743780) |
 | 04 | [Phase Diagram & Universality](https://github.com/complexity-econ/paper-04-phase-diagram) | [10.5281/zenodo.18751083](https://doi.org/10.5281/zenodo.18751083) |
-| **05** | **Endogenous Technology & Networks** | *this repo* |
+| **05** | **Endogenous Technology & Networks** | [10.5281/zenodo.18758365](https://doi.org/10.5281/zenodo.18758365) |
 
 ## License
 
