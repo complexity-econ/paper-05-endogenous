@@ -1,4 +1,4 @@
-# Paper 05: Endogenous Technology and Network Dynamics in AI Adoption
+# Endogenous Technology and Network Dynamics in AI Adoption
 
 **A Factorial Agent-Based Study**
 
